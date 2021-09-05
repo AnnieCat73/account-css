@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>an-account Form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section class="image">
+    <div>
+      <img src="./assets/image.jpg" alt="" class="main-img">
+    </div>
+  </section>
+  <section class="form bg-primary">
+    <div class="container flow-content">
+      <header>
+        <h1 class="section-title">Create your future</h1>
+      </header>
+
+      <form action="" method="post" class="account xl-space flow-content">
+        <div>
+          <label for="name" class="text-200">Name</label>
+          <input placeholder="Your Name" type="text" id="name" name="name">
+        </div>
+        <div>
+          <label for="email" class="text-200">Email</label>
+          <input placeholder="example@domain.com" type="email" name="email" id="email">
+        </div>
+        <div>
+          <label for="password" class="text-200 ">Password</label>
+          <input type="password" class="box-shadow" name="password" id="password" required>
+        </div>
+        <div>
+          <label for="password" class="text-200">Confirm password</label>
+          <input type="password" name="password" id="password" required >
+        </div>
+      </form>
+
+      <div class="captcha flow-content">
+        <img src="./assets/recaptcha.png" alt="" class="">
+      </div>
+
+      <button class="btn" type="submit">Create an account</button>
+
+      <div class="licence">
+        <p class="text-200">By clicking ‘Create an account’ you agree to SlyArchitectureAndFuture.com <span class="span">User License</span> and <span class="span">Privacy Policy</span></p>
+      </div>
+
+      <div class="social">
+        <p class="social-text">or continue with</p>
+        <div class="social-icons">
+          <img src="./assets/apple.png" alt="Apple">
+          <img src="./assets/facebook.png" alt="Facebook">
+          <img src="./assets/github.png" alt="Github">
+        </div>
+        <p class="text-200">Already have an account? <span class="span">Log in</span></p>
+      </div>
+
+    </div>
+
+  </section>
+  
+</body>
+
+</html>
